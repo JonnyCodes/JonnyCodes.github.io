@@ -102,3 +102,27 @@ h4 {
 .project ul {
 	margin: 10px 18px;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    header {
+		flex-direction: column;
+	}
+
+	#info {
+		margin-top: 20px;
+	}
+
+	#content {
+		flex-direction: column;
+	}
+
+	#rightCol {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#rightCol * {
+		margin-right: 5px;
+	}
+}
