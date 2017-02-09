@@ -105,8 +105,24 @@ h4 {
 
 
 @media only screen and (max-width: 1024px) {
+
+	body {
+		margin: 10px;
+	}
+
+
     header {
 		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		text-align: center;
 	}
 
 	#info {
@@ -120,6 +136,8 @@ h4 {
 	#rightCol {
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
 	}
 
 	#rightCol * {
