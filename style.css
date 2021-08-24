@@ -8,10 +8,11 @@ body {
 	margin: 40px 100px;
 	min-width: 260px;
 	max-width: 900px;
+	font-family: sans-serif;
 }
 
 header {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -24,32 +25,27 @@ hr {
 }
 
 h1 {
-	font-family: serif;
 	font-size: 3.5em;
 	margin-bottom: 5px;
 }
 
 h2 {
-	font-family: sans-serif;
 	font-size: 1.75em;
-	margin: 20px 0;
+	margin-top: 10px;
 	color: #1F79C6;
 }
 
 h3 {
-	font-family: serif;
 	font-size: 1.4em;
 	font-weight: bold;
 }
 
 h4 {
-	font-family: serif;
 	font-size: 1.25em;
 	margin-bottom: 5px;
 }
 
 .subtitle {
-	font-family: sans-serif;
 	font-size: 0.8em;
 	color: #666;
 }
@@ -57,14 +53,25 @@ h4 {
 #name {
 	display: flex;
 	flex-direction: column;
+	flex-basis: 70%;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+#name img {
+	margin-bottom: 5px;
+	max-width: 70%;
 }
 
 #info {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	font-family: sans-serif;
+	justify-content: center;
 	font-weight: bold;
+}
+
+#info > div {
+	margin-bottom: 10px;
 }
 
 #content {
@@ -95,14 +102,19 @@ h4 {
 }
 
 .sectionHeader {
-	margin: 25px 0;
+	margin: 20px 0;
 	display: flex;
 	flex-direction: column;
+}
+
+.sectionHeader > ul {
+	font-family: serif;
 }
 
 .project {
 	color: #666;
 	margin: 15px 0;
+	font-family: serif;
 }
 
 .project ul {
@@ -121,6 +133,14 @@ h4 {
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
+	}
+
+	#name {
+		align-items: center;
+	}
+
+	#name img {
+		max-width: 50%;
 	}
 
 	h1 {
