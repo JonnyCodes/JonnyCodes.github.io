@@ -5,7 +5,7 @@ a, a:visited {
 }
 
 body {
-	margin: 40px 100px;
+	margin: 20px 50px;
 	min-width: 260px;
 	max-width: 900px;
 	font-family: sans-serif;
@@ -42,7 +42,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.25em;
+	font-size: 1em;
 	margin-bottom: 5px;
 }
 
